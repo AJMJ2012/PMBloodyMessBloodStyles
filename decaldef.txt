@@ -1,0 +1,482 @@
+// Improted from NashGore
+// Removed bloods 9 and 10 as their style differed from the rest
+// Added lava blood styles
+
+//===========================================================================
+//
+//
+//
+//===========================================================================
+
+Stretcher Stretchy
+{
+	GoalY 1.5
+	StretchStart 0.001
+	StretchTime 15.0
+}
+
+Slider Slidey
+{
+	DistY -20
+	SlideStart 0.001
+	SlideTime 15.0
+}
+
+Combiner Yucky
+{
+	Stretchy
+	Slidey
+}
+
+//===========================================================================
+//
+//
+//
+//===========================================================================
+
+Decal NashGoreBloodDrip
+{
+	Pic "Graphics/NashGoreBloodDrip.png"
+	OpaqueBlood
+	X-Scale 1.0
+	Y-Scale 0.02
+	RandomFlipX
+	Animator Yucky
+}
+
+//===========================================================================
+//
+// Blood Splats
+//
+//===========================================================================
+
+// With drips
+
+Decal NashGoreBloodSplat01
+{
+	Pic "Graphics/NashGoreBloodSplat01.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreBloodDrip"
+}
+
+Decal NashGoreBloodSplat02
+{
+	Pic "Graphics/NashGoreBloodSplat02.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreBloodDrip"
+}
+
+Decal NashGoreBloodSplat03
+{
+	Pic "Graphics/NashGoreBloodSplat03.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreBloodDrip"
+}
+
+Decal NashGoreBloodSplat04
+{
+	Pic "Graphics/NashGoreBloodSplat04.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreBloodDrip"
+}
+
+Decal NashGoreBloodSplat05
+{
+	Pic "Graphics/NashGoreBloodSplat05.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreBloodDrip"
+}
+
+Decal NashGoreBloodSplat06
+{
+	Pic "Graphics/NashGoreBloodSplat06.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreBloodDrip"
+}
+
+Decal NashGoreBloodSplat07
+{
+	Pic "Graphics/NashGoreBloodSplat07.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreBloodDrip"
+}
+
+Decal NashGoreBloodSplat08
+{
+	Pic "Graphics/NashGoreBloodSplat08.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreBloodDrip"
+}
+
+// No drips
+
+Decal NashGoreBloodSplat01_NoDrip
+{
+	Pic "Graphics/NashGoreBloodSplat01.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreBloodSplat02_NoDrip
+{
+	Pic "Graphics/NashGoreBloodSplat02.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreBloodSplat03_NoDrip
+{
+	Pic "Graphics/NashGoreBloodSplat03.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreBloodSplat04_NoDrip
+{
+	Pic "Graphics/NashGoreBloodSplat04.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreBloodSplat05_NoDrip
+{
+	Pic "Graphics/NashGoreBloodSplat05.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreBloodSplat06_NoDrip
+{
+	Pic "Graphics/NashGoreBloodSplat06.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreBloodSplat07_NoDrip
+{
+	Pic "Graphics/NashGoreBloodSplat07.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreBloodSplat08_NoDrip
+{
+	Pic "Graphics/NashGoreBloodSplat08.png"
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+//===========================================================================
+//
+// Blood Smears
+//
+//===========================================================================
+
+Decal NashGoreBloodSmear01
+{
+	Pic "Graphics/NashGoreBloodSmear01.png"
+	OpaqueBlood
+	RandomFlipX
+	Animator Yucky
+}
+
+Decal NashGoreBloodSmear02
+{
+	Pic "Graphics/NashGoreBloodSmear02.png"
+	OpaqueBlood
+	RandomFlipX
+	Animator Yucky
+}
+
+//===========================================================================
+//
+//
+//
+//===========================================================================
+
+DecalGroup BloodSplat
+{
+	NashGoreBloodSplat01 1
+	NashGoreBloodSplat02 2
+	NashGoreBloodSplat03 2
+	NashGoreBloodSplat04 1
+	NashGoreBloodSplat05 1
+	NashGoreBloodSplat06 2
+	NashGoreBloodSplat07 2
+	NashGoreBloodSplat08 1
+
+	NashGoreBloodSplat01_NoDrip 2
+	NashGoreBloodSplat02_NoDrip 3
+	NashGoreBloodSplat03_NoDrip 3
+	NashGoreBloodSplat04_NoDrip 2
+	NashGoreBloodSplat05_NoDrip 2
+	NashGoreBloodSplat06_NoDrip 3
+	NashGoreBloodSplat07_NoDrip 3
+	NashGoreBloodSplat08_NoDrip 2
+}
+
+DecalGroup BloodSmear
+{
+	NashGoreBloodSmear01 1
+	NashGoreBloodSmear02 1
+}
+
+//===========================================================================
+//
+//
+//
+//===========================================================================
+
+Decal NashGoreLavaDrip
+{
+	Pic "Graphics/Lava/NashGoreLavaDrip.png"
+	OpaqueBlood
+	FullBright
+	X-Scale 1.0
+	Y-Scale 0.02
+	RandomFlipX
+	Animator Yucky
+}
+
+//===========================================================================
+//
+// Lava Splats
+//
+//===========================================================================
+
+// With drips
+
+Decal NashGoreLavaSplat01
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat01.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreLavaDrip"
+}
+
+Decal NashGoreLavaSplat02
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat02.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreLavaDrip"
+}
+
+Decal NashGoreLavaSplat03
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat03.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreLavaDrip"
+}
+
+Decal NashGoreLavaSplat04
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat04.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreLavaDrip"
+}
+
+Decal NashGoreLavaSplat05
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat05.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreLavaDrip"
+}
+
+Decal NashGoreLavaSplat06
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat06.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreLavaDrip"
+}
+
+Decal NashGoreLavaSplat07
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat07.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreLavaDrip"
+}
+
+Decal NashGoreLavaSplat08
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat08.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+	LowerDecal "NashGoreLavaDrip"
+}
+
+// No drips
+
+Decal NashGoreLavaSplat01_NoDrip
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat01.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreLavaSplat02_NoDrip
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat02.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreLavaSplat03_NoDrip
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat03.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreLavaSplat04_NoDrip
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat04.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreLavaSplat05_NoDrip
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat05.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreLavaSplat06_NoDrip
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat06.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreLavaSplat07_NoDrip
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat07.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal NashGoreLavaSplat08_NoDrip
+{
+	Pic "Graphics/Lava/NashGoreLavaSplat08.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	RandomFlipY
+}
+
+//===========================================================================
+//
+// Lava Smears
+//
+//===========================================================================
+
+Decal NashGoreLavaSmear01
+{
+	Pic "Graphics/Lava/NashGoreLavaSmear01.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	Animator Yucky
+}
+
+Decal NashGoreLavaSmear02
+{
+	Pic "Graphics/Lava/NashGoreLavaSmear02.png"
+	OpaqueBlood
+	FullBright
+	RandomFlipX
+	Animator Yucky
+}
+
+//===========================================================================
+//
+//
+//
+//===========================================================================
+
+DecalGroup LavaSplat
+{
+	NashGoreLavaSplat01 1
+	NashGoreLavaSplat02 2
+	NashGoreLavaSplat03 2
+	NashGoreLavaSplat04 1
+	NashGoreLavaSplat05 1
+	NashGoreLavaSplat06 2
+	NashGoreLavaSplat07 2
+	NashGoreLavaSplat08 1
+
+	NashGoreLavaSplat01_NoDrip 2
+	NashGoreLavaSplat02_NoDrip 3
+	NashGoreLavaSplat03_NoDrip 3
+	NashGoreLavaSplat04_NoDrip 2
+	NashGoreLavaSplat05_NoDrip 2
+	NashGoreLavaSplat06_NoDrip 3
+	NashGoreLavaSplat07_NoDrip 3
+	NashGoreLavaSplat08_NoDrip 2
+}
+
+DecalGroup LavaSmear
+{
+	NashGoreLavaSmear01 1
+	NashGoreLavaSmear02 1
+}

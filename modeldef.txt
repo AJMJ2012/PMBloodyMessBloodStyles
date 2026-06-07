@@ -1,0 +1,113 @@
+Model Bloody_PM_BloodSplatLarge_NG {
+	Model 0 "Models/BloodSpot.obj"
+	Scale 64 64 1
+
+	USEACTORPITCH
+	USEACTORROLL
+	
+	Skin 0 "Graphics/NashGoreBloodSplat01.png"
+	FrameIndex BLUD A 0 0
+
+	Skin 0 "Graphics/NashGoreBloodSplat04.png"
+	FrameIndex BLUD B 0 0
+	
+	Skin 0 "Graphics/NashGoreBloodSplat05.png"
+	FrameIndex BLUD C 0 0
+}
+
+Model Bloody_PM_BloodSplatMedium_NG {
+	Model 0 "Models/BloodSpot.obj"
+	Scale 64 64 1
+
+	USEACTORPITCH
+	USEACTORROLL
+	
+	Skin 0 "Graphics/NashGoreBloodSplat01.png"
+	FrameIndex BLUD A 0 0
+
+	Skin 0 "Graphics/NashGoreBloodSplat04.png"
+	FrameIndex BLUD B 0 0
+	
+	Skin 0 "Graphics/NashGoreBloodSplat05.png"
+	FrameIndex BLUD C 0 0
+}
+
+Model Bloody_PM_BloodSplatSmall_NG {
+	Model 0 "Models/BloodSpot.obj"
+	Scale 64 64 1
+
+	USEACTORPITCH
+	USEACTORROLL
+
+	Skin 0 "Graphics/NashGoreBloodSplat02.png"
+	FrameIndex BLUD A 0 0
+	
+	Skin 0 "Graphics/NashGoreBloodSplat03.png"
+	FrameIndex BLUD B 0 0
+
+	Skin 0 "Graphics/NashGoreBloodSplat06.png"
+	FrameIndex BLUD C 0 0
+	
+	Skin 0 "Graphics/NashGoreBloodSplat07.png"
+	FrameIndex BLUD D 0 0
+	
+	Skin 0 "Graphics/NashGoreBloodSplat08.png"
+	FrameIndex BLUD E 0 0
+}
+
+Model Bloody_PM_LavaSplatLarge_NG {
+	Model 0 "Models/BloodSpot.obj"
+	Scale 64 64 1
+
+	USEACTORPITCH
+	USEACTORROLL
+	
+	Skin 0 "Graphics/Lava/NashGoreLavaSplat01.png"
+	FrameIndex BLUD A 0 0
+
+	Skin 0 "Graphics/Lava/NashGoreLavaSplat04.png"
+	FrameIndex BLUD B 0 0
+	
+	Skin 0 "Graphics/Lava/NashGoreLavaSplat05.png"
+	FrameIndex BLUD C 0 0
+}
+
+Model Bloody_PM_LavaSplatMedium_NG {
+	Model 0 "Models/BloodSpot.obj"
+	Scale 64 64 1
+
+	USEACTORPITCH
+	USEACTORROLL
+	
+	Skin 0 "Graphics/Lava/NashGoreLavaSplat01.png"
+	FrameIndex BLUD A 0 0
+
+	Skin 0 "Graphics/Lava/NashGoreLavaSplat04.png"
+	FrameIndex BLUD B 0 0
+	
+	Skin 0 "Graphics/Lava/NashGoreLavaSplat05.png"
+	FrameIndex BLUD C 0 0
+}
+
+Model Bloody_PM_LavaSplatSmall_NG {
+	Model 0 "Models/BloodSpot.obj"
+	Scale 64 64 1
+
+	USEACTORPITCH
+	USEACTORROLL
+
+	Skin 0 "Graphics/Lava/NashGoreLavaSplat02.png"
+	FrameIndex BLUD A 0 0
+	
+	Skin 0 "Graphics/Lava/NashGoreLavaSplat03.png"
+	FrameIndex BLUD B 0 0
+
+	Skin 0 "Graphics/Lava/NashGoreLavaSplat06.png"
+	FrameIndex BLUD C 0 0
+	
+	Skin 0 "Graphics/Lava/NashGoreLavaSplat07.png"
+	FrameIndex BLUD D 0 0
+	
+	Skin 0 "Graphics/Lava/NashGoreLavaSplat08.png"
+	FrameIndex BLUD E 0 0
+}

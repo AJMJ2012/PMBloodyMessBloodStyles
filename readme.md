@@ -1,3 +1,5 @@
 Project Malice: Bloody Mess Styles
 ====
-Choose a branch to select the style you want
+**NashGore Gritty Style**
+
+Uses only the grittier wall decals
