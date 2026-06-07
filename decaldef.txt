@@ -1,0 +1,189 @@
+// Improted from NashDecals
+// Removed scaling
+// Added lava blood styles
+
+// Blood Splats
+
+Decal BloodSplat1
+{
+	Pic BSPLAT1
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal BloodSplat2
+{
+	Pic BSPLAT2
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal BloodSplat3
+{
+	Pic BSPLAT3
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal BloodSplat4
+{
+	Pic BSPLAT4
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal BloodSplat5
+{
+	Pic BSPLAT5
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal BloodSplat6
+{
+	Pic BSPLAT6
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal BloodSplat7
+{
+	Pic BSPLAT7
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+// The smaller blood splats are more common than the big ones.
+
+DecalGroup BloodSplat
+{
+	BloodSplat1	2
+	BloodSplat2	1
+	BloodSplat3	5
+	BloodSplat4	5
+	BloodSplat5	5
+	BloodSplat6	5
+	BloodSplat7	6
+}
+
+Decal BloodSmear1
+{
+	Pic BSMEAR1
+	OpaqueBlood
+	RandomFlipX
+	Animator BloodSmearer
+}
+
+Decal BloodSmear2
+{
+	Pic BSMEAR2
+	OpaqueBlood
+	RandomFlipX
+	Animator BloodSmearer
+}
+
+DecalGroup BloodSmear
+{
+	BloodSmear1	1
+	BloodSmear2	1
+}
+
+// Lava Splats
+
+Decal LavaSplat1
+{
+	Pic LSPLAT1
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal LavaSplat2
+{
+	Pic LSPLAT2
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal LavaSplat3
+{
+	Pic LSPLAT3
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal LavaSplat4
+{
+	Pic LSPLAT4
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal LavaSplat5
+{
+	Pic LSPLAT5
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal LavaSplat6
+{
+	Pic LSPLAT6
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+Decal LavaSplat7
+{
+	Pic LSPLAT7
+	OpaqueBlood
+	RandomFlipX
+	RandomFlipY
+}
+
+// The smaller lava splats are more common than the big ones.
+
+DecalGroup LavaSplat
+{
+	LavaSplat1	2
+	LavaSplat2	1
+	LavaSplat3	5
+	LavaSplat4	5
+	LavaSplat5	5
+	LavaSplat6	5
+	LavaSplat7	6
+}
+
+Decal LavaSmear1
+{
+	Pic LSMEAR1
+	OpaqueBlood
+	RandomFlipX
+	Animator LavaSmearer
+}
+
+Decal LavaSmear2
+{
+	Pic LSMEAR2
+	OpaqueBlood
+	RandomFlipX
+	Animator LavaSmearer
+}
+
+DecalGroup LavaSmear
+{
+	LavaSmear1	1
+	LavaSmear2	1
+}

@@ -1,0 +1,155 @@
+Model Bloody_PM_BloodSplatLarge_NG {
+	Model 0 "Models/BloodSpot.obj"
+	Scale 64 64 1
+
+	USEACTORPITCH
+	USEACTORROLL
+	
+	Skin 0 "Models/bsplat1.png"
+	FrameIndex BLUD A 0 0
+	
+	Skin 0 "Models/bsplat3.png"
+	FrameIndex BLUD B 0 0
+	
+	Skin 0 "Models/bsplat4.png"
+	FrameIndex BLUD C 0 0
+	
+	Skin 0 "Models/bsplat5.png"
+	FrameIndex BLUD D 0 0
+	
+	Skin 0 "Models/bsplat6.png"
+	FrameIndex BLUD E 0 0
+	
+	Skin 0 "Models/bsplat8.png"
+	FrameIndex BLUD F 0 0
+}
+
+Model Bloody_PM_BloodSplatMedium_NG {
+	Model 0 "Models/BloodSpot.obj"
+	Scale 64 64 1
+
+	USEACTORPITCH
+	USEACTORROLL
+	
+	Skin 0 "Models/bsplat_classic1.png"
+	FrameIndex BLUD A 0 0
+
+	Skin 0 "Models/bsplat_classic2.png"
+	FrameIndex BLUD B 0 0
+	
+	Skin 0 "Models/bsplat_classic3.png"
+	FrameIndex BLUD C 0 0
+	
+	Skin 0 "Models/bsplat_classic4.png"
+	FrameIndex BLUD D 0 0
+}
+
+Model Bloody_PM_BloodSplatSmall_NG {
+	Model 0 "Models/BloodSpot.obj"
+	Scale 64 64 1
+
+	USEACTORPITCH
+	USEACTORROLL
+
+	Skin 0 "Models/bsplat_small1.png"
+	FrameIndex BLUD A 0 0
+
+	Skin 0 "Models/bsplat_small2.png"
+	FrameIndex BLUD B 0 0
+	
+	Skin 0 "Models/bsplat_small3.png"
+	FrameIndex BLUD C 0 0
+	
+	Skin 0 "Models/bsplat_small4.png"
+	FrameIndex BLUD D 0 0
+	
+	Skin 0 "Models/bsplat_small5.png"
+	FrameIndex BLUD E 0 0
+	
+	Skin 0 "Models/bsplat_small6.png"
+	FrameIndex BLUD F 0 0
+	
+	Skin 0 "Models/bsplat_small7.png"
+	FrameIndex BLUD G 0 0
+	
+	Skin 0 "Models/bsplat_small8.png"
+	FrameIndex BLUD H 0 0
+}
+
+Model Bloody_PM_LavaSplatLarge {
+	Model 0 "Models/BloodSpot.obj"
+	Scale 64 64 1
+
+	USEACTORPITCH
+	USEACTORROLL
+	
+	Skin 0 "Models/bsplat1.png"
+	FrameIndex BLUD A 0 0
+	
+	Skin 0 "Models/bsplat3.png"
+	FrameIndex BLUD B 0 0
+	
+	Skin 0 "Models/bsplat4.png"
+	FrameIndex BLUD C 0 0
+	
+	Skin 0 "Models/bsplat5.png"
+	FrameIndex BLUD D 0 0
+	
+	Skin 0 "Models/bsplat6.png"
+	FrameIndex BLUD E 0 0
+	
+	Skin 0 "Models/bsplat8.png"
+	FrameIndex BLUD F 0 0
+}
+
+Model Bloody_PM_LavaSplatMedium {
+	Model 0 "Models/BloodSpot.obj"
+	Scale 64 64 1
+
+	USEACTORPITCH
+	USEACTORROLL
+	
+	Skin 0 "Models/Lava/lsplat_classic1.png"
+	FrameIndex BLUD A 0 0
+
+	Skin 0 "Models/Lava/lsplat_classic2.png"
+	FrameIndex BLUD B 0 0
+	
+	Skin 0 "Models/Lava/lsplat_classic3.png"
+	FrameIndex BLUD C 0 0
+	
+	Skin 0 "Models/Lava/lsplat_classic4.png"
+	FrameIndex BLUD D 0 0
+}
+
+Model Bloody_PM_LavaSplatSmall {
+	Model 0 "Models/BloodSpot.obj"
+	Scale 64 64 1
+
+	USEACTORPITCH
+	USEACTORROLL
+
+	Skin 0 "Models/Lava/lsplat_small1.png"
+	FrameIndex BLUD A 0 0
+
+	Skin 0 "Models/Lava/lsplat_small2.png"
+	FrameIndex BLUD B 0 0
+	
+	Skin 0 "Models/Lava/lsplat_small3.png"
+	FrameIndex BLUD C 0 0
+	
+	Skin 0 "Models/Lava/lsplat_small4.png"
+	FrameIndex BLUD D 0 0
+	
+	Skin 0 "Models/Lava/lsplat_small5.png"
+	FrameIndex BLUD E 0 0
+	
+	Skin 0 "Models/Lava/lsplat_small6.png"
+	FrameIndex BLUD F 0 0
+	
+	Skin 0 "Models/Lava/lsplat_small7.png"
+	FrameIndex BLUD G 0 0
+	
+	Skin 0 "Models/Lava/lsplat_small8.png"
+	FrameIndex BLUD H 0 0
+}

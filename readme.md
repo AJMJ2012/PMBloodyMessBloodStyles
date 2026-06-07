@@ -1,3 +1,5 @@
 Project Malice: Bloody Mess Styles
 ====
-Choose a branch to select the style you want
+NashGore Style
+
+Wall decals are form NashBlood to better match the style
